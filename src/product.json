@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "title": "Rustic Create Hat",
+    "image": "https://picsum.photos/id/0/640/480",
+    "price": "357.00"
+  },
+ 
+  {
+    "id": "2",
+    "title": "Tasty Frozen Chair",
+    "image": "https://picsum.photos/id/1/640/480",
+    "price": "465.00"
+  },
+ 
+  {
+    "id": "3",
+    "title": "Sleek Concrete Shoes",
+    "image": "https://picsum.photos/id/10/640/480",
+    "price": "84.00"
+  },
+ 
+  {
+    "id": "4",
+    "title": "Rustic Metal Tuna",
+    "image": "https://picsum.photos/id/100/640/480",
+    "price": "497.00"
+  },
+ 
+  {
+    "id": "5",
+    "title": "Incredible Wooden Shoes",
+    "image": "https://picsum.photos/id/1000/640/480",
+    "price": "352.00"
+  },
+ 
+  {
+    "id": "6",
+    "title": "Fantastic Frozen Bike",
+    "image": "https://picsum.photos/id/1001/640/480",
+    "price": "660.00"
+  },
+ 
+  {
+    "id": "7",
+    "title": "Handcrafted Plastic Table",
+    "image": "https://picsum.photos/id/1002/640/480",
+    "price": "556.00"
+  },
+ 
+  {
+    "id": "8",
+    "title": "Fantastic Soft Sausage",
+    "image": "https://picsum.photos/id/1003/640/480",
+    "price": "462.00"
+  },
+ 
+  {
+    "id": "9",
+    "title": "Unbranded Frozen Gloves",
+    "image": "https://picsum.photos/id/1004/640/480",
+    "price": "508.00"
+  },
+ 
+  {
+    "id": "10",
+    "title": "Homemade Wooden Mouse",
+    "image": "https://picsum.photos/id/1005/640/480",
+    "price": "770.00"
+  }
+]
