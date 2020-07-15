@@ -1,17 +1,46 @@
 <template>
   <div class="container">
-    <div class="ro">
-      <div class="col-md-7"></div>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="row">
+          <div :key="product.id" class="col-md-6" v-for="product in products">
+            <product :isInCart="isInCart(product)" v-on:add-to-cart="addCart" :product="product"></product>
+          </div>
+        </div>
+      </div>
       <div class="col-md-5"></div>
     </div>
   </div>
 </template>
 
 <script>
+import products from "@/product.json"
+import Product from "@/components/Product.vue"
 
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Product
+  },
+  data(){
+    return {
+      products,
+      cart: []
+    }
+  },
+  methods: {
+    addCart(product){
+      this.cart.push(product)
+    },
+    isInCart(product){
+      const item = this.cart.find(item => item.id === product.id)
+      if (item){
+        return true
+      }
+      return false
+    }
+  }
 }
 </script>
 
